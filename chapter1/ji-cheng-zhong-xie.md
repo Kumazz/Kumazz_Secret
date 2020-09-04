@@ -2,6 +2,45 @@
 >类与类之间的操作
 
 ### 继承
-&emsp;&emsp;self 指的是**实例对象**
+&emsp;&emsp;子类可以调用父类的属性和方法，如果子类与父类有同样方法则会被重写
+
+
+```python
+    class Animal(object):
+    def __init__(self, name):
+        self.name = name
+
+    def eat(self):
+        print(f'{self.name}正在吃东西')
+
+    def play(self):
+        print(f'{self.name}正在玩耍')
+
+    def sleep(self):
+        print(f'{self.name}正在睡觉')
+
+
+    class Dog(Animal):                              # 继承父类 Animal
+        def bark(self):
+            print(f'小狗 {self.name} 旺旺叫')
+
+
+    class Cat(Animal):
+        def miao(self):
+            print(f'小猫喵喵叫')
+
+
+    dog = Dog('tom')
+    print(dog.name)
+    dog.eat()
+    --------------------------------------------------------------
+    >>> tom
+    >>> tom 在吃东西
+    >>> 小狗 tom 旺旺叫
+
+
+```
+
+
 
 
