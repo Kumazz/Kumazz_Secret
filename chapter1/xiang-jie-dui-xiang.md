@@ -13,11 +13,9 @@
 
 *  案例
 
-  *  不带参数
+  *  不传参数
 
-
-
-  ```python
+ ```python
     class Animal(object):
         def play(self):                       # 定义该类的方法
             print('旺旺')
@@ -25,10 +23,14 @@
     dog = Animal()                            # 生成一个实例
     dog.play()                                # 通过 实例名.类方法() 进行方法调用
 
-  ```
+ ```
 
-
-  *  带参数
+ *  传递参数
+ 
+ 
+ ```python
+     class 
+ ```
 
 
 
