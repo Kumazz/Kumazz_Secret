@@ -33,7 +33,7 @@
              print(f'再吃{food}')
      
      dog = Animal()
-     dog.eat('旺旺雪饼')                      # 
+     dog.eat('旺旺雪饼')                      # 传递实参
  ```
 
 
