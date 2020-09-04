@@ -23,6 +23,9 @@
     class Dog(Animal):                              # 继承父类 Animal
         def bark(self):
             print(f'小狗 {self.name} 旺旺叫')
+        
+        def eat(self):                             # 与父类拥有同样方法
+            print(f'{self.name}正在吃狗粮')
 
 
     class Cat(Animal):
@@ -31,11 +34,15 @@
 
 
     dog = Dog('tom')
-    print(dog.name)
-    dog.eat()
+    print(dog.name)                               # 子类调用父类属性
+    dog.play()                                    # 子类调用父类方法
+    dog.eat()                                     # 子类与父类有同样方法
+    dog.spark()                                   # 子类可以使用自己的方法
     --------------------------------------------------------------
     >>> tom
+    >>> tom 正在玩耍
     >>> tom 在吃东西
+    >>> tom 正在吃狗粮                              # 子类会优先使用自己的方法
     >>> 小狗 tom 旺旺叫
 
 
