@@ -7,17 +7,17 @@
 
 ```python
     class Animal(object):
-    def __init__(self, name):
-        self.name = name
+        def __init__(self, name):
+            self.name = name
 
-    def eat(self):
-        print(f'{self.name}正在吃东西')
+        def eat(self):
+            print(f'{self.name}正在吃东西')
 
-    def play(self):
-        print(f'{self.name}正在玩耍')
+        def play(self):
+            print(f'{self.name}正在玩耍')
 
-    def sleep(self):
-        print(f'{self.name}正在睡觉')
+        def sleep(self):
+            print(f'{self.name}正在睡觉')
 
 
     class Dog(Animal):                              # 继承父类Animal
