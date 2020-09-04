@@ -1,42 +1,4 @@
 # 详解对象
-### 方法
-&emsp;&emsp;**类方法**，类中定义的函数，作为对象的行为或功能
-*  语法
-
-
-```python
-    def 方法名(self, args):                 # 用 def 定义，self 是实例对象， args 是参数
-        pass
-
-```
-> 类方法名与函数写法、命名规则一样，全小写或用蛇形写法，但类方法与一般函数定义不同，类方法**必须包含参数 self, 且为第一个参数**，self 代表的是类的实例
-
-*  案例
-
-  *  不传参数
-
- ```python
-    class Animal(object):
-        def play(self):                       # 定义该类的方法
-            print('旺旺')
-    
-    dog = Animal()                            # 生成一个实例
-    dog.play()                                # 通过 实例名.类方法() 进行方法调用
-
- ```
-
- *  传递参数
- 
- ```python
-     class Animal(object):
-         def eat(self, food):                # 设置形参
-             print(f'在吃{food}')
-     
-     dog = Animal()
-     dog.eat('旺旺雪饼')                      # 传递实参，通过 实例名.方法() 进行调用
-     -----------------------------------------------------
-     >>> 在吃旺旺雪饼
- ```
 
 ### 详解 self
 &emsp;&emsp;self 指的是**实例对象**
@@ -58,25 +20,86 @@
 ```
 
 ### 属性
+&emsp;&emsp;属性即特征，比如: 实例的宽度、高度、重量等
+&emsp;&emsp;属性既可以在类外面添加和获取，也能在类里面添加和获取
+
 * 实例属性
 
 
 ```python
+    # 类外通过 实例名.属性名 = 值 添加实例属性
+    -----------------------------------------------------------
     class Animal(object):
-    def __init__(self, name, age):
-        self.name = name                              # self.name 就是实例的属性
-        self.age = age
-
-
-    dog = Animal("tom", 20)
-    print(dog.name)                                   # 通过 实例名.属性名 获取属性值
+        def play(self):
+            print('打球')                   
+            
+    dog = Animal()
+    dog.name = 'tom'                     # 类外添加属性 
+    
+    -----------------------------------------------------------
+    print(dog.name)                      # 通过 实例名.属性名 获取属性 
 
 ```
+
+
+```python
+    # 类内通过 self.属性名 添加实例属性
+    class Animal(object):
+        def paly(self):
+            print(f'这条狗名字叫{self.name}')              # 在类内部通过 self.属性名 添加实例属性
+    
+    dog = Animal()
+    dog.name = 'jerry'
+    dog.paly()                                           # 通过实例调用方法获取属性
+    -------------------------------------------------------------
+    >>> 这条狗叫 jerry
+    
+```
+
 
 
     
 * 类属性
 
+
+### 方法
+&emsp;&emsp;**类方法**，类中定义的函数，作为对象的行为或功能
+*  语法
+
+
+```python
+    def 方法名(self, args):                 # 用 def 定义，self 是实例对象， args 是参数
+        pass
+
+```
+> 类方法名与函数写法、命名规则一样，全小写或用蛇形写法，但类方法与一般函数定义不同，类方法**必须包含参数 self, 且为第一个参数**，self 代表的是类的实例
+
+*  案例
+
+  *  不传参数的方法
+
+ ```python
+    class Animal(object):
+        def play(self):                       # 定义该类的方法
+            print('旺旺')
+    
+    dog = Animal()                            # 生成一个实例
+    dog.play()                                # 通过 实例名.类方法() 进行方法调用
+
+ ```
+
+ *  传递参数的方法
+ 
+ ```python
+     class Animal(object):
+         def eat(self, food):                # 设置形参
+             print(f'在吃{food}')
+     
+     dog = Animal()
+     dog.eat('旺旺雪饼')                      # 传递实参，通过 实例名.方法() 进行调用
+     -----------------------------------------------------
+     >>> 在吃旺旺雪饼
+ ```
 
 
 
