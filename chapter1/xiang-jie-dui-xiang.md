@@ -5,11 +5,11 @@
 
 
 ```python
-    def 方法名(self, args):                 # 与函数写法、命名规则一样，全小写或用蛇形写法
+    def 方法名(self, args):                 # 用 def 定义，self 是实例对象， args 是参数
         pass
 
 ```
-> 类方法与一般函数定义不同，类方法**必须包含参数 self, 且为第一个参数**，self 代表的是类的实例
+> 类方法名与函数写法、命名规则一样，全小写或用蛇形写法，但类方法与一般函数定义不同，类方法**必须包含参数 self, 且为第一个参数**，self 代表的是类的实例
 
 *  案例
 
@@ -27,9 +27,13 @@
 
  *  传递参数
  
- 
  ```python
-     class 
+     class Animal(object):
+         def eat(self, food):                # 设置形参
+             print(f'再吃{food}')
+     
+     dog = Animal()
+     dog.eat('旺旺雪饼')                      # 
  ```
 
 
