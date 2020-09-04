@@ -1,5 +1,5 @@
 # 详解对象
-### 对象方法
+### 方法
 &emsp;&emsp;**类方法**，类中定义的函数，作为对象的行为或功能
 *  语法
 
@@ -58,6 +58,24 @@
 ```
 
 ### 属性
+* 实例属性
+
+
+```python
+    class Animal(object):
+    def __init__(self, name, age):
+        self.name = name                              # self.name 就是实例的属性
+        self.age = age
+
+
+    dog = Animal("tom", 20)
+    print(dog.name)                                   # 通过 实例名.属性名 获取属性值
+
+```
+
+
+    
+* 类属性
 
 
 
