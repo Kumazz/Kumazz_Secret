@@ -60,7 +60,21 @@
     
 ```
 
-> 由于在类外添加属性或者在类内部添加属性在代码上造成混乱和冗余，灵活性不高，一般通过初始化方法进行属性设置
+> 由于在类外添加属性或者在类内部添加属性在代码上造成混乱和冗余，灵活性不高，一般通过初始化方法 **\_\_init__()** 进行属性设置
+
+
+
+```python
+    class Animal(object):
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+            
+    dog = Animal('tom', 20)                  # 通过实例化时传递参数设置属性
+    dog.name
+
+```
+
 
 
 
