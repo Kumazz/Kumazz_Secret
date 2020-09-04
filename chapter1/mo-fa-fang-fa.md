@@ -20,11 +20,11 @@
     >>> 正在吃奶昔                        # 普通类方法则需要通过 对象名.方法() 来进行调用类方法
  ```
  
- * \_\_init__() 方法主要用于初始化参数，解决不同类或实例调用参数
+ * \_\_init__（）方法可以传递参数，参数通过初始化方法传递到类的实例化操作
  
  ```python
     class Animal(object):
-       def __init__(self, name, age):                # 初始化实例的参数 
+       def __init__(self, name, age):                # 传递参数 
              self.name = name                        # 将参数赋值给实例化对应的属性
              self.age = age
              
