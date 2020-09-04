@@ -76,7 +76,23 @@
 ```
 
    
-* 类属性
+* 类属性( 类变量 )
+
+
+```python
+    class Animal(object):
+        age = 5
+        def __init__(self, name):
+            self.name = name
+        
+    dog = Animal('tom')
+    dog.age                                # 通过 实例名.类变量 调用
+    --------------------------------------------------------------
+    >>> 5
+
+```
+
+
 
 
 
