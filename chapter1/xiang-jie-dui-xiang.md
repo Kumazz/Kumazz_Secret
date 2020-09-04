@@ -69,7 +69,7 @@
     ---------------------------------------------------------------------
     class Animal(object):
         def __init__(self, name, age):
-            self.name = name
+            self.name = name                 # 实例属性
             self.age = age
             
     dog = Animal('tom', 20)                  # 通过实例化时传递参数设置属性
