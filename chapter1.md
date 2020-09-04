@@ -51,6 +51,22 @@
 
 ```
 
+```python
+    class Animal(object):
+      pass
+    
+    dog = Animal()
+    
+    cat = Animal()                           # 可以创建多个实例对象
+
+```
+
+
+
+
+
+
+
 
 
 

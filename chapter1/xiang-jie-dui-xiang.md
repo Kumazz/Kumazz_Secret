@@ -71,7 +71,7 @@
             self.age = age
             
     dog = Animal('tom', 20)                  # 通过实例化时传递参数设置属性
-    dog.name
+    print(dog.name)                  
 
 ```
 
