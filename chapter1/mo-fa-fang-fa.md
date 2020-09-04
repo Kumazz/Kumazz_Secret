@@ -8,7 +8,7 @@
  
  ```python
     class Animal(object):
-        def __init__(self):
+        def __init__(self):              # 创建实力对象时就自动调用了 init 方法
             print('我是狗崽子')
         def eat(self, food):
             print(f'正在吃{food}')
@@ -16,7 +16,7 @@
     dog = Animal()
     dog.eat('奶昔')
     --------------------------------------------------------------------------
-    >>> 我是狗崽子                        # 创建实力对象时就自动调用了 init 方法
+    >>> 我是狗崽子                        
     >>> 正在吃奶昔                        # 普通类方法则需要通过 对象名.方法() 来进行调用类方法
  ```
  
@@ -31,8 +31,10 @@
        def play(self,food):
              print(f'{self.name}正在吃{food}')
     
-    dog = Animal()
-    dog.play('tom', 20, '碎碎冰')
+    dog = Animal('tom', 20)                         # 在创建实例时传递参数，便于 init 方法调用
+    dog.play('碎碎冰')
+    --------------------------------------------------------------
+    >>> tom 正在吃碎碎冰
  ```
 
   
