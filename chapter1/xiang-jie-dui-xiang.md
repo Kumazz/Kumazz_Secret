@@ -33,7 +33,7 @@
              print(f'再吃{food}')
      
      dog = Animal()
-     dog.eat('旺旺雪饼')                      # 传递实参
+     dog.eat('旺旺雪饼')                      # 传递实参，通过 实例名.方法() 进行调用
      -----------------------------------------------------
      >>> 旺旺雪饼
  ```
@@ -44,7 +44,7 @@
 
 ```python
     class Animal(object):
-        def eat(self, food):                    # self 指的是 dog 这个实例 
+        def eat(self, food):                    # 所有 self 指的是 dog 这个实例 
             self.play('打球')                    
             print(f'测试{food}')
             
