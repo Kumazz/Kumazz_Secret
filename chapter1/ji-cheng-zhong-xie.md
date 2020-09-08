@@ -127,7 +127,7 @@
             print(f'这是类 B 的 {self.num}')
 
         def A_info_print(self):                         # 子类调用父类同名属性和方法，只要把父类同名属性和方法再次封装即可
-            A.__init__(self)                            # 需再次调用init方法进行初始化
+            A.__init__(self)                            # 需再次调用init方法进行初始化属性
             A.info_print(self)                          # 封装函数注意传递 self 参数
 
     result = B()
