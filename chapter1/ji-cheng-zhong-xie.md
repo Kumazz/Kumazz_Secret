@@ -75,11 +75,31 @@
 *  如果子类也有 init 方法且也想调用父类 init 方法
 
 
-### 单继承
+### 多继承
 
 
 ```python
-    
+    class A(object):
+        def __init__(self):
+            self.num = 1
+
+    def info_print(self):
+        print(f'{self.num} 这是 A 类的 1')
+
+
+    class B(object):
+        def __init__(self):
+            self.num = 2
+
+    def info_print(self):
+        print(f'{self.num} 这是 B 类的 2')
+
+    class C(A, B):
+        pass
+
+    resuly = C()
+    print(resuly.num)
+    resuly.info_print()
 
 ```
 
