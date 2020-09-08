@@ -143,6 +143,48 @@
 
 
 
+```python
+    class A(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 A 的 {self.num}')
+
+
+    class B(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 B 的 {self.num}')
+
+
+    class C(A, B):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 C 的 {self.num}')
+
+    # 方法一: 代码冗余，父类类名如果有变化，代码需要频繁修改
+        def all_info_print(self):
+            A.__init__(self)
+            A.info_print(self)
+            B.__init__(self)
+            B.info_print(self)
+            
+    # 方法二: super()
+
+
+    resy = C()
+    resy.info_print()
+    resy.all_info_print()
+```
+
+
+
+
 
 
 
