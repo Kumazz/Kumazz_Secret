@@ -139,7 +139,7 @@
 
 ```
 
-*  super() 调用父类方法，super(当前类名, self).函数()
+*  super() 调用父类方法
 
 
 
@@ -175,6 +175,9 @@
             B.info_print(self)
             
     # 方法二: super()
+      a. super() 带参数写法，super(当前类名, self).函数
+        def all_info_print(self):
+            super()
 
 
     resy = C()
