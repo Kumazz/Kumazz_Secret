@@ -39,7 +39,7 @@
       pass
       
       
-    # Py3使用新式类
+    # Py3 使用新式类
     --------------------------------------------------------------
     class 类名(object):                   # 用 class 进行定义类，object 可写(符合 PEP8 命名规范)可不写，会自动继承
       pass
@@ -54,22 +54,22 @@
 ```python
     # 创建一个对象
     -----------------------------------
-    class Animal(object):
+    class Animal(object):                     # 创建类
       pass
     
-    dog = Animal()
+    dog = Animal()                            # 创建一个实例
 
 ```
 
 ```python
     # 创建多个实力对象
     -----------------------------------------------------------
-    class Animal(object):
+    class Animal(object):                    # 创建类     
       pass
     
-    dog = Animal()
-    
-    cat = Animal()                          
+    dog = Animal()                           # 创建一个实例
+     
+    cat = Animal()                           # 创建另一个实例
 
 ```
 
