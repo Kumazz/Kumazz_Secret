@@ -77,29 +77,35 @@
 
 ### 多继承
 
+* 子类可以调用父类的属性和方法，也可以调用子类的方法
+
 
 ```python
     class A(object):
         def __init__(self):
             self.num = 1
 
-    def info_print(self):
-        print(f'{self.num} 这是 A 类的 1')
+        def info_print(self):
+            print(f'{self.num} 这是 A 类的 1')
 
 
     class B(object):
         def __init__(self):
-            self.num = 2
+            self.num = 1
 
-    def info_print(self):
-        print(f'{self.num} 这是 B 类的 2')
+        def info_print(self):
+            print(f'{self.num} 这是 B 类的 1')
+            
 
-    class C(A, B):
+    class C(A, B):                                 # 同时继承两个类，想用哪个类属性方法写在第一个参数位置
         pass
 
     resuly = C()
     print(resuly.num)
     resuly.info_print()
+    -----------------------------------------------------------
+    >>> 1
+    >>> 1 这是 A 类的 1
 
 ```
 
