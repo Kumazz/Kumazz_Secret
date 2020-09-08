@@ -26,6 +26,47 @@
     >>> 1
 ```
 
+
+
+### 多继承
+
+* 当一个类有多个父类的时候，默认使用**第一个父类**的**同名**属性和方法
+*  查看类的层级继承关系，要查看的 **类名.\_\_mro__**
+
+
+
+
+
+```python
+    class A(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'{self.num} 这是 A 类的 1')
+
+
+    class B(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'{self.num} 这是 B 类的 1')
+            
+
+    class C(A, B):                                 # 同时继承两个类，想用哪个类属性方法写在第一个参数位置
+        pass
+
+    resuly = C()
+    print(resuly.num)
+    resuly.info_print()
+    print(C.__mro__)
+    -----------------------------------------------------------
+    >>> 1
+    >>> 1 这是 A 类的 1
+    >>> (<class '__main__.C'>, <class '__main__.A'>, <class '__main__.B'>, <class 'object'>)
+
+```
 *  如果子类与父类有同名方法和属性则会被子类**重写**
 
 
@@ -63,42 +104,6 @@
 
 ```
 
-*  如果子类也有 init 方法且也想调用父类 init 方法
-
-
-### 多继承
-
-* 当一个类有多个父类的时候，默认使用**第一个父类**的**同名**属性和方法
-
-
-```python
-    class A(object):
-        def __init__(self):
-            self.num = 1
-
-        def info_print(self):
-            print(f'{self.num} 这是 A 类的 1')
-
-
-    class B(object):
-        def __init__(self):
-            self.num = 1
-
-        def info_print(self):
-            print(f'{self.num} 这是 B 类的 1')
-            
-
-    class C(A, B):                                 # 同时继承两个类，想用哪个类属性方法写在第一个参数位置
-        pass
-
-    resuly = C()
-    print(resuly.num)
-    resuly.info_print()
-    -----------------------------------------------------------
-    >>> 1
-    >>> 1 这是 A 类的 1
-
-```
 
 
 
