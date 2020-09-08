@@ -5,6 +5,28 @@
 * 子类可以调用父类的属性和方法，也可以调用子类的方法，如果子类与父类有同样方法则会被**重写**
 
 
+
+```python
+    class A(object):                        # 定义一个类 A 作为 父类
+        def __init__(self):                 # 定义父类属性
+            self.num = 1
+        
+        def info_prit(self):                # 定义父类方法
+            print(self.num)
+
+
+    class B(A):                             # 定义一个类 B，继承 A 形成子类
+        pass
+    
+    result = B()                            # 生成子类实例
+    result.info_print()                     # 调用父类方法
+    ---------------------------------------------------------
+    >>> 1
+```
+
+
+
+
 ```python
     class Animal(object):
         def __init__(self, name):
