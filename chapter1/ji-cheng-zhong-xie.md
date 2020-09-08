@@ -31,6 +31,34 @@
 
 ```python
   
+    class A(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 A 的 {self.num}')
+
+
+    class B(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 B 的 {self.num}')
+
+
+    class C(A, B):
+        def __init__(self):                         # 定义与父类同名的属性
+            self.num = 2
+
+        def info_print(self):                       # 定于与父类同名的方法
+            print(f'这是类 C 的{self.num}')
+
+
+    result = C()
+    result.info_print()
+    -------------------------------------------------------------
+    >>> 这是类 C 的 2                             # 重写了父类的属性和方法
 
 
 ```
