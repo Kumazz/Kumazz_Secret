@@ -111,6 +111,37 @@
 *  子类既能使用自身的方法属性，同时也能使用父类同名的属性和方法
 
 
+```python
+    class A(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 A 的 {self.num}')
+
+
+    class B(A):
+        def __init__(self):
+            self.num = 2
+
+        def info_print(self):
+            print(f'这是类 B 的 {self.num}')
+
+        def A_info_print(self):
+            A.__init__(self)
+            A.info_print(self)
+
+    result = B()
+    result.info_print()
+    result.A_info_print()
+    --------------------------------------------------------
+    >>> 
+
+```
+
+
+
+
 
 
 
