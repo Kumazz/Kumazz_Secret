@@ -60,7 +60,8 @@
     resuly = C()
     print(resuly.num)
     resuly.info_print()
-    print(C.__mro__)
+    
+    print(C.__mro__)                                # 查看继承关系
     -----------------------------------------------------------
     >>> 1
     >>> 1 这是 A 类的 1
