@@ -181,7 +181,99 @@
     resy.all_info_print()
 ```
 
-*  一次性调用父类，super() 方法
+*  一次性调用父类，super() 带参数写法，super(当前类名, self).函数()，因为类名不可控不推荐该写法
+
+
+```python
+    class A(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 A 的 {self.num}')
+
+
+    class B(A):                                           # 继承 A 为父类
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 B 的 {self.num}')
+
+            super(B, self).__init__()                    # 调用 A 父类
+            super(B, self).info_print()
+
+
+    class C(B):                                          # 继承 B 为父类
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 C 的 {self.num}')
+
+        def all_ab_info(self):
+            super(C, self).__init__()
+            super(C, self).info_print()
+
+
+
+    reay = C()
+    reay.all_ab_info()                                 # 调用时会同时输出 A, B 类方法
+    ------------------------------------------------------------
+    >>> 这是类 B 的 1
+    >>> 这是类 A 的 1
+
+
+```
+
+*  一次性调用父类，super() 无参数写法，super().函数()，因为super()能自动查找父类
+
+
+
+```python
+    class A(object):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 A 的 {self.num}')
+
+
+    class B(A):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 B 的 {self.num}')
+
+            super().__init__()
+            super().info_print()
+
+
+    class C(B):
+        def __init__(self):
+            self.num = 1
+
+        def info_print(self):
+            print(f'这是类 C 的 {self.num}')
+
+        def all_ab_info(self):
+            super().__init__()
+            super().info_print()
+
+
+    reay = C()
+    reay.all_ab_info()
+    --------------------------------------------------------------
+    >>> 这是类 B 的 1
+    >>> 这是类 A 的 1
+
+```
+
+
+
+
+
 
 
 
