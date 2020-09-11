@@ -140,7 +140,7 @@
 
 ```
 
-*  super() 调用父类方法
+*  一次性(全部)调用父类，复杂方法
 
 
 
@@ -174,11 +174,6 @@
             A.info_print(self)
             B.__init__(self)
             B.info_print(self)
-            
-    # 方法二: super()
-      a. super() 带参数写法，super(当前类名, self).函数
-        def all_info_print(self):
-            super()
 
 
     resy = C()
@@ -186,6 +181,7 @@
     resy.all_info_print()
 ```
 
+*  一次性调用父类，super() 方法
 
 
 
