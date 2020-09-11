@@ -69,7 +69,7 @@
     ---------------------------------------------------------------------
     class Animal(object):
         def __init__(self, name, age):
-            self.name = name                 # 实例属性
+            self.name = name                 # 实例属性，参数有 self 用于指代实例对象
             self.age = age
             
     dog = Animal('tom', 20)                  # 通过实例化时传递参数设置属性
@@ -80,14 +80,13 @@
    
 * **类属性( 类变量 )**，就是 类对象 所拥有的属性，它被 该类的所有实力对象 所共有，类属性可以使用 类对象 或 实例对象 访问
 
+> 记录某项数据始终保持一致时，则定义类属性
 
 ```python
     class Animal(object):
-        age = 5
-        def __init__(self, name):
-            self.name = name
+        age = 5                            # 类属性
         
-    dog = Animal('tom')
+    dog = Animal()
     print(Animal.age)                      # 通过 类名.属性名 访问
     dog.age                                # 通过 实例名.类变量 访问
     --------------------------------------------------------------
