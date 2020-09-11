@@ -14,7 +14,9 @@
     class A(object):
         def __init__(self):
             self.num = 1
-            self.__money = 10000000
+            self.__money = 10000000                   # 设置了私有属性
+        def __info_print(self):
+            print(f'这是私有方法')
 
     class B(A):
         pass
@@ -24,7 +26,8 @@
     print(b.money)
     -------------------------------------------
     >>> 1
-    >>> 错误，AttributeError: 'B' object has no attribute 'money'
+    >>> 报错，AttributeError: 'B' object has no attribute 'money'
+    >>> 报错，AttributeError: 'B' object has no attribute 'info_print'
 
 ```
 
