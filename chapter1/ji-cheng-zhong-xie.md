@@ -107,8 +107,9 @@
 ```
 
 ### 不重写
-*  子类既能使用自身的方法属性，同时也能使用父类同名的属性和方法
+&emsp;&emsp;子类既能使用自身的方法属性，同时也能使用父类同名的属性和方法
 
+*  调用单个父类
 
 ```python
     class A(object):
@@ -126,7 +127,7 @@
         def info_print(self):
             print(f'这是类 B 的 {self.num}')
 
-        def A_info_print(self):                         # 子类调用父类同名属性和方法，只要把父类同名属性和方法再次封装即可
+        def A_info_print(self):                         # 把要调用父类同名属性和方法再次封装，即可实现子类调用父类
             A.__init__(self)                            # 需再次调用init方法进行初始化属性
             A.info_print(self)                          # 封装函数注意传递 self 参数
 
