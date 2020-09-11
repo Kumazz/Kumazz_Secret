@@ -30,12 +30,30 @@
 
 ```
 
-* 获取: 在 Python 中，一般定义函数名 get_xx 用来获取私有属性，定义 set_xx 用来修改**私有属性值**
+* 获取与修改: 在 Python 中，一般定义函数名 get_xx 用来获取私有属性，定义 set_xx 用来修改**私有属性值**
 
 > 私有属性 和 私有方法 只能在**类里面**访问和修改
 
 ```python
-    
+    class A(object):
+        def __init__(self):
+            self.num = 1
+            self.__money = 10000000
+
+        def get_money(self):                      # 定义 获取函数
+            return self.__money
+
+        def set_money(self):                      # 定义 修改函数
+            self.__money = 5000
+
+
+    class B(A):
+        pass
+
+    b = B()
+    print(b.get_money())
+    b.set_money()
+    print(b.get_money())
 
 ```
 
