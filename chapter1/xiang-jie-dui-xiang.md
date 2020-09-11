@@ -88,7 +88,7 @@
             self.name = name
         
     dog = Animal('tom')
-    print(Animal.age)
+    print(Animal.age)                      # 通过 类名.属性名 访问
     dog.age                                # 通过 实例名.类变量 访问
     --------------------------------------------------------------
     >>> 5
