@@ -5,15 +5,17 @@
 &emsp;&emsp;**Python 3:** Python 主流版本，性能更加丰富完善
 >本文档 Python 解释器版本 3.9 以上，系统环境是 Mac OS，穿插一些 windows 案例或图片
 
-### 安装调试
+### 安装验证
 
 * **下载:** 【 [点击下载](https://www.python.org/downloads/) 】，页面自动判断你的操作系统推荐下载对应 Python 安装程序 
 
 ![](/assets/QQ20200917-171730@2x.png)
 
 * **安装:**
-双击可执行文件 — 勾选 [ pip ] -- [ Next ] -- **[勾选添加环境变量]** -- [ Install ]，按提示操作即可
-![](/assets/{M7OE@K`Q$MCE`@NMPS4S90.png)
+双击 Python 安装文件 — 勾选 [ pip ] -- [ Next ] -- **[勾选添加环境变量]** -- [ Install ]，按提示操作即可
+![](/assets/QQ20200917-172121@2x.png)
+> windows 系统添加 Python 环境变量，只需要在安装时勾选 Add Python 3.9 to PATH，如果忘了勾选，可以重新安装勾选一下；Mac 系统不需要设置
+
 * **验证:** 
   * 在**开始菜单**中找到 Python 安装目录，点击打开 **IDLE** 即可
   * 在**运行**输入 **cmd** 调出终端，输入 Python 即可调用
