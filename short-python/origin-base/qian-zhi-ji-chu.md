@@ -39,6 +39,7 @@
  * 删除整行: CMD + Delete
  * 代码规范化: CMD + Option + L
  * 选中一行: 快速鼠标三击
+ * Debug: CMD + D
 
 
 
