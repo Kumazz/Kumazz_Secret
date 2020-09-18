@@ -55,7 +55,7 @@
 
 
 ### 编辑器
-&emsp;&emsp; Python 开发的工具，如: SublimeText、VSCode等，作为 Python 开发建议使用专业的开发工具 **Pycharm**
+&emsp;&emsp; Python 自带的 IDLE 做大型开发时受到限制，可以使用如: SublimeText、VSCode、Pycharm 等专业工具做开发，建议使用 **Pycharm**
 * **Pycharm:** [点击下载](https://www.jetbrains.com/pycharm/download/)， Pycharm 专业版是收费的软件，可以下载社区版进行前期学习
 * **VSCode:** [点击下载](https://code.visualstudio.com/)，免费的开发编辑器，需要配合相关插件完成 Python 的相关开发，可以搜索 VSCode For Python 的视频进行补充学习
 
