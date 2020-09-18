@@ -46,11 +46,24 @@
 * **其它错误**
   * ImportError: 导入包错误
   * NotImplementedError: 某个方法没有实现的错误
+  * StopIteration: 迭代器已经到最后
+  * TabError: 包含了 tab 和空格错误
+  * UnicodeEncodeError: Unicode 编码错误，一般是 unicode->str 错误
+  * UnicodeDecodeError: Unicode 解码错误，一般是 str->unicode 错误
+  * FileNotFoundError: 文件没有找到的错误
+  
        
 ### Debug
 &emsp;&emsp; Pycharm 集成了调试程序的 Debug 工具
 *  **断点调试方法:** 在要调试的代码第一行与代码行号位置**单击**后形成红色标注即打上断点，运行 Debug 调试，快捷键: Ctrl + Shift + D
+
 ![](/assets/QQ20200918-135812@2x.png)
+
+
+
+
+
+
 
 
 
