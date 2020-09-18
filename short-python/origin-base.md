@@ -12,15 +12,18 @@
 ![](/assets/QQ20200917-171730@2x.png)
 
 * **安装:**
-双击 Python 安装文件 —  **勾选 [ Add Python 3.9 to PATH ]** -- 点击 [ Install Now ] -- [ Next ]，按提示操作即可
+双击 Python 安装文件 —  **勾选 [ Add Python 3.9 to PATH ]** -- 点击 [ Install Now ] -- [ Next ] ，按提示操作即可
 ![](/assets/QQ20200917-172121@2x.png)
 > windows 系统添加 Python 环境变量，只需在安装解析器程序时勾选 Add Python 3.9 to PATH，如果忘了勾选，可以重新安装勾选一下；
 
 * **验证:** 
-  * 在**开始菜单**中找到 Python 安装目录，点击打开 **IDLE** 即可
-  * 在**运行**输入 **cmd** 调出终端，输入 Python 即可调用
+  * windows 系统有 2 种验证方式
+   * 在**开始菜单**中找到 Python 安装目录，点击打开 **IDLE** ，出现选框中语句即安装成功
+   * 在**运行**输入 **cmd** 调出终端，输入 **Python** ，出现选框中语句即安装成功
+   
+ ![](/assets/QQ20200918-094923@2x.png)
+
   * Mac OS 已预装 Python2 ，在安装 Python3 后需要单独输入 Python3 进行调用，否则输入 Python 默认启动 Python2
-![](/assets/Lark20200803-111505.png)
 
 
 ```python
