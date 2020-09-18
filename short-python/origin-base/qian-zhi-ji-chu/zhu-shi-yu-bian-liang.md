@@ -46,10 +46,15 @@
 
 
 *  **变量名命名规则**，即满足**Python标识符**命名规则
+ *
    *  由数字、字母、下划线组成
    *  不能以**数字**开头
    *  不能使用**[内置关键词(保留字)](https://www.runoob.com/python3/python3-basic-syntax.html)**
-   *  严格区分大小写   
+   *  严格区分大小写 
+   大小写敏感：hello和Hello是两个不同名字的变量。
+驼峰命名：小驼峰userAge和大驼峰UserAge，一般类和模块的命名会使用大驼峰。
+下划线命名：user_age，一般模块和函数以及变量命名使用下划线。
+关键字：and、or、def、class、import、print、return等关键字不能作为变量名来使用。  
 
 
 *  **命名习惯**

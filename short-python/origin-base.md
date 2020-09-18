@@ -36,9 +36,9 @@
   
   
 *  **其他解释器**
-  * PyPy，基于 Python 语⾔开发的解释器
-  * Jython，运⾏在 Java 平台的解释器，直接把 Python 代码编译成Java字节码执⾏   
-  * IronPython，运⾏在微软 .Net 平台上的 Python 解释器，把 Python 代码编译成 .Net 的字节码
+ * PyPy，基于 Python 语⾔开发的解释器
+ * Jython，运⾏在 Java 平台的解释器，直接把 Python 代码编译成Java字节码执⾏   
+ * IronPython，运⾏在微软 .Net 平台上的 Python 解释器，把 Python 代码编译成 .Net 的字节码
   
 
 *  **IDLE 代码含义**
