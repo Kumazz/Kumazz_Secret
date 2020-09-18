@@ -3,7 +3,7 @@
 ### Python
 &emsp;&emsp;**Python 2:** 已于 2020 年 1 月 1 日停止 Python 2 的技术支持
 &emsp;&emsp;**Python 3:** Python 主流版本，性能更加丰富完善
->本文档 Python 解释器版本 3.9 以上，系统环境是 Mac OS，穿插一些 windows 案例或图片
+>本文档 Python 解释器版本 3.9 ，系统环境是 Mac OS，穿插一些 windows 案例或图片
 
 ### 安装验证
 
@@ -12,9 +12,9 @@
 ![](/assets/QQ20200917-171730@2x.png)
 
 * **安装:**
-双击 Python 安装文件 — 勾选 [ pip ] -- [ Next ] -- **[勾选添加环境变量]** -- [ Install ]，按提示操作即可
+双击 Python 安装文件 —  **勾选 [Add Python 3.9 to PATH ]** -- 点击 [ Install Now ] -- [ Next ]，按提示操作即可
 ![](/assets/QQ20200917-172121@2x.png)
-> windows 系统添加 Python 环境变量，只需要在安装时勾选 Add Python 3.9 to PATH，如果忘了勾选，可以重新安装勾选一下；Mac 系统不需要设置
+> windows 系统添加 Python 环境变量，只需要在安装解析器程序时勾选 Add Python 3.9 to PATH，如果忘了勾选，可以重新安装勾选一下；Mac 系统不需要设置
 
 * **验证:** 
   * 在**开始菜单**中找到 Python 安装目录，点击打开 **IDLE** 即可
