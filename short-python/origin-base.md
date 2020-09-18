@@ -29,7 +29,7 @@
 
 
 ### 解释器
-&emsp;&emsp;帮助我们将 Python 代码，也就是 .py 文件，交给机器可以执行的工具，即运行文件
+&emsp;&emsp;帮助我们将 Python 代码，也就是 .py 文件，交给机器可以执行的工具
 *  **Python 解释器种类** 
   * CPython，C 语⾔开发的解释器[官⽅]，应⽤广泛的解释器   
   * IPython，基于 CPython  的⼀种交互式解释器
@@ -64,9 +64,11 @@
 &emsp;&emsp;Mac 设置默认启动 Python3 解释器
 
 
-```bash
-    #  启动终端
-    open ~/.bash_profile 
+```shell
+    #  启动终端调试
+    --------------------------------------------------------------
+    open ~/.bash_profile                       # 打开 bash_profile 文件
+    alias python="/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9"
 
 ```
 
