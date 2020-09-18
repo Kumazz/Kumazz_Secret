@@ -4,6 +4,7 @@
 * [Short Python](short-python.md)
   * [Origin Base](short-python/origin-base.md)
     * [前置基础](short-python/origin-base/qian-zhi-ji-chu.md)
+      * [注释与变量](short-python/origin-base/qian-zhi-ji-chu/zhu-shi-yu-bian-liang.md)
 * [面向对象](chapter1.md)
   * [详解对象](chapter1/xiang-jie-dui-xiang.md)
   * [魔法方法](chapter1/mo-fa-fang-fa.md)
