@@ -23,7 +23,9 @@
    
  ![](/assets/QQ20200918-094923@2x.png)
 
-  * Mac OS 已预装 Python2 ，在安装 Python3 后需要单独输入 Python3 进行调用，否则输入 Python 默认启动 Python2
+  * Mac OS 已预装 Python2 ，在安装 Python3 后需要单独输入 **Python3** 进行调用，否则输入 Python 默认启动 Python2
+  
+  ![](/assets/QQ20200918-100345@2x.png)
 
 
 ```python
