@@ -55,9 +55,22 @@
        
 ### Debug
 &emsp;&emsp; Pycharm 集成了调试程序的 Debug 工具
-*  **断点调试方法:** 在要调试的代码第一行与代码行号位置**单击**后形成红色标注即打上断点，运行 Debug 调试，快捷键: Ctrl + Shift + D
-
+*  **断点调试方法:** 在要调试的代码与代码行号位置**单击**后形成红色标注即打上断点，运行 Debug 调试，快捷键: CMD + Shift + D
 ![](/assets/QQ20200918-135812@2x.png)
+
+ * 调试按钮
+    * step over: 跳过子函数
+    * step into: 进入子函数
+    * step into my code: 不执行源码的子函数执行自己的
+    * step out: 跳出当前函数
+    * run to cursor: 执行到光标处
+
+*  **[pdb 调试案例](https://www.cnblogs.com/c-x-a/p/10674288.html)**，推荐用 Debug 工具调试
+
+ 
+
+
+
 
 
 
