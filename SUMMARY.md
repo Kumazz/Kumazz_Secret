@@ -6,6 +6,7 @@
     * [前置基础](short-python/origin-base/qian-zhi-ji-chu.md)
       * [注释与变量](short-python/origin-base/qian-zhi-ji-chu/zhu-shi-yu-bian-liang.md)
       * [Bug与Debug](short-python/origin-base/qian-zhi-ji-chu/bugyu-debug.md)
+      * [输入与输出](short-python/origin-base/qian-zhi-ji-chu/shu-ru-yu-shu-chu.md)
 * [面向对象](chapter1.md)
   * [详解对象](chapter1/xiang-jie-dui-xiang.md)
   * [魔法方法](chapter1/mo-fa-fang-fa.md)
