@@ -41,7 +41,7 @@
   * IronPython，运⾏在微软 .Net 平台上的 Python 解释器，把 Python 代码编译成 .Net 的字节码
   
 
-*  **IDLE代码含义**
+*  **IDLE 代码含义**
 
 ```python
     Python 3.9.0b5 (v3.9.0b5:8ad7d506ca, Jul 20 2020, 14:25:25) 
@@ -55,7 +55,7 @@
 
 
 ### 编辑器
-&emsp;&emsp;尽管有各种适合 Python 开发的编辑器工具，如: SublimeText、VSCode等，作为 Python 开发建议使用专业的开发工具 Pycharm
+&emsp;&emsp; Python 开发的工具，如: SublimeText、VSCode等，作为 Python 开发建议使用专业的开发工具 **Pycharm**
 * **Pycharm:** [点击下载](https://www.jetbrains.com/pycharm/download/)， Pycharm 专业版是收费的软件，可以下载社区版进行前期学习
 * **VSCode:** [点击下载](https://code.visualstudio.com/)，免费的开发编辑器，需要配合相关插件完成 Python 的相关开发，可以搜索 VSCode For Python 的视频进行补充学习
 
