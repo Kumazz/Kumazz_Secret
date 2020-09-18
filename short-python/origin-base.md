@@ -60,18 +60,6 @@
 * **VSCode:** [点击下载](https://code.visualstudio.com/)，免费的开发编辑器，需要配合相关插件完成 Python 的相关开发，可以搜索 VSCode For Python 的视频进行补充学习
 
 
-### 补充
-&emsp;&emsp;Mac 设置默认启动 Python3 解释器
-
-
-```shell
-    #  启动终端调试
-    --------------------------------------------------------------
-    open ~/.bash_profile                       # 打开 bash_profile 文件
-    alias python="/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9"
-
-```
-
 
 
 
