@@ -70,8 +70,13 @@
 &emsp;&emsp; Mac OS 设置 Python3 为主解释器
 
 
-```linux
-   which python3
+```shell
+   which python3                                   # 查询 Python3 安装位置
+   vi ~/.bash_profile                              # 用 vim 打开文件
+   按 i 键                                          # 在 insert 模式下写入命令
+   alias python="查询的路径"
+   按 esc 键，按 : ，输入 wq！                        # 保存文件
+   source ~/.bash_profile                          # 文件生效
 
 ```
 
