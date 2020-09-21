@@ -68,7 +68,7 @@
 
 ```python
     age = int(input('请输入您的年纪: '))
-    if age == 18:                                        # 注意 == 是等于号
+    if age == 18:                                              # 注意 == 是 等于号
         print('法律规定刚满18周岁是不能立即进入网吧')
     elif age > 18 and age <24:
         print('你可以去网吧但是需要开证明')
