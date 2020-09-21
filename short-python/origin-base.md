@@ -14,7 +14,6 @@
 * **安装:**
 双击 Python 安装文件 —  **勾选 [ Add Python 3.9 to PATH ]** -- 点击 [ Install Now ] -- [ Next ] ，按提示操作即可
 ![](/assets/QQ20200917-172121@2x.png)
-> windows 系统添加 Python 环境变量，只需在安装解析器程序时勾选 Add Python 3.9 to PATH，如果忘了勾选，可以重新安装勾选一下；
 
 * **验证:** 
   * windows 系统有 2 种验证方式
@@ -58,6 +57,13 @@
 &emsp;&emsp; Python 自带的 IDLE 做大型开发时受到限制，可以使用如: SublimeText、VSCode、Pycharm 等专业工具做开发，建议使用 **Pycharm**
 * **Pycharm:** [点击下载](https://www.jetbrains.com/pycharm/download/)， Pycharm 专业版是收费的软件，可以下载社区版进行前期学习
 * **VSCode:** [点击下载](https://code.visualstudio.com/)，免费的开发编辑器，需要配合相关插件完成 Python 的相关开发，可以搜索 VSCode For Python 的视频进行补充学习
+
+
+### 环境变量
+> windows 系统添加 Python 环境变量，只需在安装解析器程序时勾选 Add Python 3.9 to PATH，如果忘了勾选，可以重新安装勾选一下；
+
+【 [win7 手动添加环境变量](https://jingyan.baidu.com/article/bea41d436879a4b4c51be6f9.html) 】
+【 [win10 手动添加变量](https://www.cnblogs.com/hyf20131113/p/12058994.html) 】
 
 
 
