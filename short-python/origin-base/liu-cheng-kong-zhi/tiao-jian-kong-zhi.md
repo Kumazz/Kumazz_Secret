@@ -95,7 +95,7 @@
 ![](/assets/QQ20200921-141014@2x.png)
 
 
-```python3
+```python
     age = int(input('请输入您的年纪: '))
     if age >= 18:
         if age >= 18 and age < 25:
