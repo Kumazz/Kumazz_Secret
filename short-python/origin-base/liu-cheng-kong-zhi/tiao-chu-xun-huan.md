@@ -49,9 +49,7 @@
 ### 拓展
 *  **while...else 与 break**
 
-```python
-    # break后面的代码一律不运行，包括else
-    
+```python   
     while 条件1:
         条件1成立执行的代码
         break
@@ -59,6 +57,8 @@
         条件2成立执行的代码
 
 ```
+> break 后面的代码一律不运行，包括 else 后面的代码
+
 
 *  **while...else 与 continue**
 
