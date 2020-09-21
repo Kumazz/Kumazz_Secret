@@ -66,6 +66,17 @@
 【 [win7 手动添加环境变量](https://jingyan.baidu.com/article/bea41d436879a4b4c51be6f9.html) 】
 【 [win10 手动添加变量](https://www.cnblogs.com/hyf20131113/p/12058994.html) 】
 
+### 拓展
+&emsp;&emsp; Mac OS 设置 Python3 为主解释器
+
+
+```linux
+   which python3
+
+```
+
+
+
 
 
 
