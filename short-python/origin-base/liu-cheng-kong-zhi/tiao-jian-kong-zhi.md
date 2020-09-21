@@ -66,6 +66,21 @@
 ```
 
 
+```python
+    age = int(input('请输入您的年纪: '))
+    if age == 18:                                        # 注意 == 是等于号
+        print('法律规定刚满18周岁是不能立即进入网吧')
+    elif age > 18 and age <24:
+        print('你可以去网吧但是需要开证明')
+    elif age >= 25:
+        print('你无需开证明就可以上网吧')
+    else:
+        print('不可以上网吧')
+```
+
+
+
+
 ### if 嵌套
 
 &emsp;&emsp;条件1成立后才可以执行嵌套内的 if 判断
