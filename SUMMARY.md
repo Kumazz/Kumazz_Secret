@@ -9,7 +9,7 @@
       * [输入与输出](short-python/origin-base/qian-zhi-ji-chu/shu-ru-yu-shu-chu.md)
       * [运算符](short-python/origin-base/qian-zhi-ji-chu/yun-suan-fu.md)
     * [流程控制](short-python/origin-base/liu-cheng-kong-zhi.md)
-      * 条件控制
+      * [条件控制](short-python/origin-base/liu-cheng-kong-zhi/tiao-jian-kong-zhi.md)
       * 循环控制
 * [面向对象](chapter1.md)
   * [详解对象](chapter1/xiang-jie-dui-xiang.md)
