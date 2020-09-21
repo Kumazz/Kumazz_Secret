@@ -113,6 +113,34 @@
 *  **for...in...else 与 while 一样**，遇到 break 后面都不执行，遇到 continue 后面继续执行
 
 
+### 总结
+* else 的应用
+ * while 和 for 都可以配合 else 使⽤
+ * else 下⽅缩进的代码含义:当循环正常结束后执⾏的代码 
+ * break 终⽌循环不会执⾏ else 下方缩进的代码 
+ * continue 退出循环的执⾏ else 下⽅缩进的代码
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
