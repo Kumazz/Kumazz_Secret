@@ -46,9 +46,7 @@
 
 ```
 
-
-
-### while 嵌套
+* **while 嵌套**
 
 ```python
     while 条件 1:
