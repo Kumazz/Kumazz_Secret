@@ -59,7 +59,7 @@
 
 
 *  **格式化输出**
- * 旧式格式化输出，不推荐使用，但需要了解，[点击查看](https://www.jianshu.com/p/617cc100b1bf)
+ * 旧式格式化输出，不推荐使用，但需要了解，[补充查看](https://www.jianshu.com/p/617cc100b1bf)
    
    ```python
       weight = 72.3
