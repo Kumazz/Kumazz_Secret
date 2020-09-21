@@ -3,7 +3,7 @@
 ### Python
 &emsp;&emsp;**Python 2:** 已于 2020 年 1 月 1 日停止 Python 2 的技术支持
 &emsp;&emsp;**Python 3:** Python 主流版本，性能更加丰富完善
->本文档 Python 解释器版本 3.9 ，系统环境是 Mac OS，穿插一些 windows 案例或图片
+>本文档 Python 解释器版本 3.9 ，系统环境是 Mac OS，编辑器是 Pycharm，穿插一些 windows 案例或图片
 
 ### 安装验证
 
