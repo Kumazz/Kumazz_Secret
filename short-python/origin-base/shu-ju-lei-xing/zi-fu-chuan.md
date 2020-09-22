@@ -129,6 +129,12 @@
  * 如果查出子串次数，则替换次数为子串出现次数
  * replace 返回值是修改后的字符串(赋值给变量)，**不会修改原来字符串**
 
+```python
+   mystr = 'hello world and my baby'
+   new_str = mystr.replace('o', 'a', 1))            # 指定次数替换
+   print(new_str)
+```
+
 
 
 
