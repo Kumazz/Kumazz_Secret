@@ -12,6 +12,7 @@
       * [条件控制](short-python/origin-base/liu-cheng-kong-zhi/tiao-jian-kong-zhi.md)
       * [循环控制](short-python/origin-base/liu-cheng-kong-zhi/xun-huan-kong-zhi.md)
       * [跳出循环](short-python/origin-base/liu-cheng-kong-zhi/tiao-chu-xun-huan.md)
+    * [数据类型](short-python/origin-base/shu-ju-lei-xing.md)
 * [面向对象](chapter1.md)
   * [详解对象](chapter1/xiang-jie-dui-xiang.md)
   * [魔法方法](chapter1/mo-fa-fang-fa.md)
