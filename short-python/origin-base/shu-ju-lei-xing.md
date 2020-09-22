@@ -17,8 +17,8 @@
 ```
     
 * **Python 中数据种类主要种类如下:**
-  *  数值( num ): int（整型）、float（浮点型）
-  *  布尔型( bool ): True（真）、False（假）
+  *  数值( num ): int「 整型 」、float「 浮点型 」
+  *  布尔型( bool ): True「 真 」、False「 假 」
   *  字符串( string ): str
   *  列表( list ): list
   *  元组( tuple ): tuple
