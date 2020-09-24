@@ -94,17 +94,33 @@
         gender
 ```
 
-
   
 * 遍历字典的 value
   * for value in 字典序列.values()
+  
   
 * 遍历字典的元素( key 和 value )
   * for item in 字典序列.items()
   * 返回元组，元组1是 key ，元组2是 value
   
+
 * 遍历字典的的键值对，即 拆包
   * for key, value in 字典序列.items()
+  
+
+
+```python
+    dict1 = {'name': 'Tom', 'age': 20, 'gender': '男'} 
+    for key, value in dict1.items():
+      print(f'{key} = {value}')
+    -----------------------------------------------------
+    >>> name = tom
+        age = 20
+        gender = 男
+
+```
+
+
 
 
 
