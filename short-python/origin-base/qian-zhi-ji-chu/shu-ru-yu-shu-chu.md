@@ -36,7 +36,7 @@
 
 
 ```python
-    print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+    print(*objects, 【 sep=' ', end='\n', file=sys.stdout, flush=False 】)
 
 ```
 > print(参数) 主要了解前三个参数 ( 可写可不写 )，*objects 是要输出的内容，多个内容用「 , 」隔开；sep 用来将多个数据隔开，默认是空格；end 加在输出的末尾，默认是换行符
