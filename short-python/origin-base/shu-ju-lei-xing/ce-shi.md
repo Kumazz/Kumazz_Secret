@@ -95,7 +95,7 @@
     name_list = ['Tom', 'Lily', 'Rose']
     name_list.extend(['xiaoming', 'xiaohong'])
     print(name_list)
-    -----------------------------------------------
+    ----------------------------------------------------
     >>> ['Tom', 'Lily', 'Rose', 'xiaoming', 'xiaohong'] 
 
 ```
