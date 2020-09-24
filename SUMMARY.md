@@ -15,7 +15,7 @@
     * [数据类型](short-python/origin-base/shu-ju-lei-xing.md)
       * [字符串](short-python/origin-base/shu-ju-lei-xing/zi-fu-chuan.md)
       * [列表](short-python/origin-base/shu-ju-lei-xing/ce-shi.md)
-      * 元组
+      * [元组](short-python/origin-base/shu-ju-lei-xing/yuan-zu.md)
 * [面向对象](chapter1.md)
   * [详解对象](chapter1/xiang-jie-dui-xiang.md)
   * [魔法方法](chapter1/mo-fa-fang-fa.md)
