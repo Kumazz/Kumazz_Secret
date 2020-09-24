@@ -18,6 +18,7 @@
       * [元组](short-python/origin-base/shu-ju-lei-xing/yuan-zu.md)
       * [字典](short-python/origin-base/shu-ju-lei-xing/zi-dian.md)
       * [集合](short-python/origin-base/shu-ju-lei-xing/ji-he.md)
+      * [推导式](short-python/origin-base/shu-ju-lei-xing/tui-dao-shi.md)
 * [面向对象](chapter1.md)
   * [详解对象](chapter1/xiang-jie-dui-xiang.md)
   * [魔法方法](chapter1/mo-fa-fang-fa.md)
