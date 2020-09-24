@@ -71,7 +71,6 @@
 
 
 ```bash
-
    which python3                                   # 查询 Python3 安装位置
    vi ~/.bash_profile                              # 用 vim 打开文件
    按 i 键                                          # 在 insert 模式下写入命令
