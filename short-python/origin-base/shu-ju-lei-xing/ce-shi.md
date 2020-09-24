@@ -112,7 +112,7 @@
 
 
 * **sort()**
-  *  列表序列.sort( key=None,reverse=False )
+  *  列表序列.sort( key=None,【 reverse=False 】 )
   
   
 * **列表序列.insert( 位置下标，数据 )**
