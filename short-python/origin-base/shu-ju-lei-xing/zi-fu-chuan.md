@@ -128,7 +128,7 @@
 * **replace() 方法**
  * 字符串序列**.replace**( 旧子串, 新子串, 【 替换次数 】 ）
  * 如果查出子串次数，则替换次数为子串出现次数
- * replace 返回值是修改后的字符串(赋值给变量)，**不会修改原来字符串**
+ * replace 返回值是**修改后的字符串**(赋值给变量)，**不会修改原来字符串**
 
 ```python
     mystr = 'hello world and my baby'
@@ -136,6 +136,31 @@
     print(new_str)
 ```
 > 如果不写替换次数，默认全部替换
+
+* **字符串序列.split( 分割字符,【 num 】)**
+ *  num 表示分割字符出现的次数，即将来返回**数据**个数为 num+1 个
+ *  split() 返回是**列表**
+
+ ```python
+    mytitle = 'I Love Python and I Love Code'
+    new_mytitle = mytitle.split(' ', 2)
+    print(new_mytitle)
+    ----------------------------------------------------------
+    >>> ['I', 'Love', 'Python and I Love Code']
+ ```
+
+* **字符或子串.join( 多字符串组成的子列 )**，用一个字符或子串合并字符串
+ * 返回新的字符串
+
+
+```python
+    mylist = ['aa', 'bb', 'cc']
+    new_str = '...'.join(mylist)
+    ------------------------------
+
+```
+
+
 
 
 
