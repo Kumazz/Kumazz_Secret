@@ -156,9 +156,83 @@
 ```python
     mylist = ['aa', 'bb', 'cc']
     new_str = '...'.join(mylist)
-    ------------------------------
+    print(new_str)
+    ----------------------------------
+    >>> aa...bb...cc
+```
+
+
+* **其他修改函数**
+ * captilize()，字符串只有首字母转成大写，其他字母全部小写(即使非首字母是大写)
+ * title()，字符串每个首字母大写
+ * upper()，字符串小写转大写
+ * lower()，字符串大写转小写
+ * lstrip()、rstrip()、strip: 删除字符串 左边、右边、两边空格
+ * mystr.ljust/rjust/center(长度, 填充字符)，左、右、两边对齐
+
+
+#### 判断，判断真假，返回的结果是布尔型数据类型
+
+*  **字符串序列.startswith( 子串，开始位置下标，结束位置下标 )**
+  *  开始和结束位置下标可以省略，表示在整个字符串序列中查找
+  *  检查字符串以以指定子串开头，是则返回 True，否则返回False
+  
+
+*  **字符串序列.endswith( 子串，开始位置下标，结束位置下标 )**
+  *  开始和结束位置下标可以省略，表示在整个字符串序列中查找
+  *  检查字符串以以指定子串结尾，是则返回 True，否则返回False
+
+
+* **其他判断函数**，存在返回 True，否则返回 False
+
+
+```python
+    mystr = 'hello python and worlf'
+    
+    # 判断字符串是不是字母组成，注意空格
+    print(mystr.isalpha())
+    
+    # 判断字符串是不是数字组成，注意空格
+    print(mystr.isdigit())
+    
+    # 判断字符串是不是数字、字母、空格组成
+    print(mystr.isalnum())
+    
+    # 判断字符串是不是由空格(白)组成
+    print(mystr.isspace())
+    
+```
+
+
+### 拓展
+*  **len()函数**，返回一个数据长度
+
+&emsp;&emsp; 用 len 获取一个字符串的最后一个字符
+```python
+    fruit = 'banana'
+    length = len(fruit)
+    
+    last = fruit[length-1] 
 
 ```
+&emsp;&emsp; banana 这个字符在第「6」个位置是没有字母的，因为下标从 0 开始，所以一共 6 个字母的顺序是 0 到 5，因此要在字符长度上减去 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
