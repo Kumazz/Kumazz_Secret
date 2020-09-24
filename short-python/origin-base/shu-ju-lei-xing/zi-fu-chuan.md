@@ -141,13 +141,13 @@
  *  num 表示分割字符出现的次数，即将来返回**数据**个数为 num+1 个
  *  split() 返回是**列表**
 
- ```python
+```python
     mytitle = 'I Love Python and I Love Code'
     new_mytitle = mytitle.split(' ', 2)
     print(new_mytitle)
     ----------------------------------------------------------
     >>> ['I', 'Love', 'Python and I Love Code']
- ```
+```
 
 * **字符或子串.join( 多字符串组成的子列 )**，用一个字符或子串合并字符串
  * 返回新的字符串
