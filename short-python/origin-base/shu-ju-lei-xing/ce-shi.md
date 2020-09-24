@@ -114,6 +114,8 @@
 * **sort()**
   *  列表序列.sort( key=None,【 reverse=False 】 )
   
+> reverse表示排序规则，reverse = True 降序， reverse = False 升序(默认)
+  
   
 * **列表序列.insert( 位置下标，数据 )**
   * 指定位置新增数据
