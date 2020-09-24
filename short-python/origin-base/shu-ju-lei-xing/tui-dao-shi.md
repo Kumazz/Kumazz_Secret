@@ -6,36 +6,71 @@
 
 ### 推导式案例
 
+* **简单的推导式**
+
 ```python
-    # 简单的推导式 
     list1 = [i for i in range(10)]
     print(list1)
+```
 
-    # 带 if 的推导式
+* **带 if 的推导式**
+
+
+```python
     list2 = [i for i in range(10) if i % 2 == 0]
-    print(list2)
-    
-    # 多个 for 循环推导式，就是 for 循环嵌套
+    print(list2)    
+```
+
+* **多个 for 循环推导式，就是 for 循环嵌套**
+
+
+```python
     list3 = [(i, j) for i in range(1,2) for j in range(1,3)]
-    prit(list3)
-    
-    # 字典推导式
+    print(list3)
+    ----------------------------------------------------------
+    >>> [(1, 1), (1, 2)]
+```
+
+* **字典推导式**
+
+```python
     dict1 = { i: i**2 for i in range(1,5)}
     print(dict1)
+    -----------------------------------------------
+    >>> {1: 1, 2: 4, 3: 9, 4: 16}
+```
     
-    # 合并两个列表成为字典(列表数据个数相同)，如果数据个数不相同，len 统计数据少的列表
+#### 拓展
+* **合并两个列表成为字典(列表数据个数相同)，如果数据个数不相同，len 统计数据少的列表**
+
+
+```python
     dict1 = {list1[i]:list2[i] for i in range(len(list1))}
     print(dict1)
-    
-    # 提取字典中的目标数据
+
+```
+
+*  **提取字典中的目标数据**
+
+
+```python
     counts = {k : v for k, v in counts.items() if 条件}
     print(counts)
-    
-   
-    # 集合推导式，结果具有去重特点
+
+```
+
+* **集合推导式，结果具有去重特点**
+
+
+```python
     set1 = {i ** 2 for i in range(10)}
     print(set1) 
+
 ```
+
+
+    
+
 
 
  
