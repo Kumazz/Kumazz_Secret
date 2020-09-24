@@ -28,6 +28,19 @@
   * del 字典[key]，可以删除指定key数据
   
 
+
+```python
+    dict1 = {'name': 'Tom', 'age': 20, 'gender': '男'}
+    del dict1['gender']
+    print(dict1)
+    ---------------------------------------------------
+    >>> {'name': 'Tom', 'age': 20}
+
+```
+
+
+  
+
 #### 查找
 
 * 通过 key 查找 value
