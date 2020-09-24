@@ -77,18 +77,30 @@
 
 
 * **列表序列.extend( 数据 )**
-  *  列表结尾追加数据(数据会被拆分)
+  *  列表结尾追加数据(单个数据会被拆分)
   *  追加的数据是一个序列，则将这个序列的数据**逐一添加**到列表
-
 
 
 ```python
     name_list = ['tom','jerry','add']
     print(name_list.extend('hehe'))
-    ------------------------------------
+    -------------------------------------------
     >>> ['tom','jerry','add','h','e','h','e']
 
 ```
+
+
+
+```python
+    name_list = ['Tom', 'Lily', 'Rose']
+    name_list.extend(['xiaoming', 'xiaohong'])
+    print(name_list)
+    -----------------------------------------------
+    >>> ['Tom', 'Lily', 'Rose', 'xiaoming', 'xiaohong'] 
+
+```
+
+
 
 #### 修改，通过函数的形式增加列表中的数据
 
