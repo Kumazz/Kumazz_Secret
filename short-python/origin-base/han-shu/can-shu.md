@@ -12,7 +12,7 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\**kwargs：这种形式表示接受任意多个实际参数将其放到一个字典中，类似关键字参数
 
-### 类型
+### 案例
 
 * **形参与实参**
 
