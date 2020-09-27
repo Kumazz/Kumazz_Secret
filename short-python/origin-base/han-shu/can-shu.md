@@ -77,7 +77,7 @@
   
   ```python
     def user_info(*args):             # 传递的所有参数都会被 args 变量收集
-    print(args)                       
+        print(args)                       
 
     user_info('tom')                  >>> ('tom',)
     user_info('t0m',18)               >>> ('t0m',18)
@@ -88,7 +88,7 @@
 
   ```python
     def user_info(**kwargs):         # 传递的所有关键字参数都会被 kwargs 变量收集
-    print(kwargs)                     
+        print(kwargs)                     
 
     user_info(age=18, gender='男')     >>> {'age': 18, 'gender': '男'}
   ```
