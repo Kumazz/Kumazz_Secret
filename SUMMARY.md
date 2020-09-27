@@ -21,6 +21,7 @@
       * [推导式](short-python/origin-base/shu-ju-lei-xing/tui-dao-shi.md)
     * [函数](short-python/origin-base/han-shu.md)
       * [返回值](short-python/origin-base/han-shu/fan-hui-zhi.md)
+      * [参数](short-python/origin-base/han-shu/can-shu.md)
 * [面向对象](chapter1.md)
   * [详解对象](chapter1/xiang-jie-dui-xiang.md)
   * [魔法方法](chapter1/mo-fa-fang-fa.md)

@@ -1,7 +1,6 @@
 # 返回值
 ### 作用
 *  Python 每个函数都应该有一个返回值，return 语句是 Python 语言中函数返回的一个值
-  *  return 返回值可以是一个数值，一个字符串，一个布尔值或者一个列表、元组
   *  有 return 返回值才是完整的函数，不带参数值的 return 语句返回 None
  
 
@@ -25,14 +24,16 @@
 
 ```python
     def testA():
-    return 50
+        return 50                  # 返回值可以是数值、字符串、布尔值、列表、元组
 
     def testB(num):                # 需定义形参用于接收返回值
         print(num)
 
     result = testA()
 
-    testB(result)                  >>> 50     # 返回值作为参数传递
+    testB(result)                  # 返回值作为参数传递
+    -------------------------------------------------------------------------                
+    >>> 50     
 
 ```
 
@@ -41,10 +42,10 @@
 
 ```python
     def return_num():
-    return 1, 2                           # 以 ，隔开
+        return 1, 2                           # 可以用元组返回多个值
 
     result = return_num()
-    print(result)                         # 返回的是元组
+    print(result)                             # 返回的是元组
 
 ```
 
