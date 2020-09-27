@@ -22,6 +22,7 @@
     * [函数](short-python/origin-base/han-shu.md)
       * [返回值](short-python/origin-base/han-shu/fan-hui-zhi.md)
       * [参数](short-python/origin-base/han-shu/can-shu.md)
+      * [变量作用域](short-python/origin-base/han-shu/can-shu/bian-liang-zuo-yong-yu.md)
       * [拆包与引用](short-python/origin-base/han-shu/chai-bao-yu-yin-yong.md)
 * [面向对象](chapter1.md)
   * [详解对象](chapter1/xiang-jie-dui-xiang.md)
