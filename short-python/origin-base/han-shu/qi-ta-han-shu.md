@@ -30,43 +30,43 @@
   *  参数：可有可无，通常以逗号分隔的变量表达式形式，也就是位置参数
   *  表达式：不能包含循环、return，可以包含 if...else...
 
-```python
+* 案例
+ * 常规参数
+ 
+ ```python
     result = lambda x, y : x + y
-    print(result)                           # 返回的是函数地址
-    print(result(1, 2))                     # 调用时是 变量名()
-        
+    print(result)                               # 返回的是函数地址
+    print(result(1, 2))                         # 调用时是 变量名()
+ ```
 
-```
+ * 默认参数
 
-
-
-```python
-    # 默认参数
+ ```python
     result = lambda a, b, c=100 : a + b + c
     print(result(10, 20))
 
-```
+ ```
 
-
-
-```python
-    # 可变参数
+ * 可变参数
+ 
+ ```python
     fn = lambda *args : args
-    print(fn(1, 2, 3))                     # 返回元组
+    print(fn(1, 2, 3))                                # 返回元组
     
     fn1 = lambda **kwargs : kwargs
-    print(fn1(name='tom', age=12))         # 返回字典
-  
-```
+    print(fn1(name='tom', age=12))                    # 返回字典 
+ ```
 
+ * 带判断的
 
-
-```python
-    # 带判断的 lambda
+ ```python
     fn = lambda a, b : a if a >b else b
     print(fn(1, 2))
-    
-    # 列表数据按字典 key 的值排序
+ ```
+
+ * 列表数据按字典 key 的值排序
+
+ ```python     
     students = [
       {'name': 'tom', 'age': 20},
       {'name': 'rose', 'age': 22},
@@ -75,7 +75,7 @@
     students.sort(key = lambda x: x['name'])
     print(students)
 
-```
+ ```
 
 
 # 高阶函数
