@@ -152,11 +152,11 @@
   *  类方法一般和类属性配合使用
   
   ```python
-      class Dog(object):
-        __tooth = 10
+    class Dog(object):
+      __tooth = 10
 
-        @classmethod
-        def get_tooth(cls):
+      @classmethod
+      def get_tooth(cls):
         return Dog.__tooth
 
     wangcai = Dog()
