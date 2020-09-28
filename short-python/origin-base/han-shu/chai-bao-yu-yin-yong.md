@@ -6,7 +6,7 @@
   
   ```python
     def return_num():
-    return 120, 220
+      return 120, 220
 
     num1, num2 = return_num()
     print(num1)                           >>> 120
@@ -25,6 +25,8 @@
     print(dict1[a])
   ```
 
+> 字典拆包取出来的是字典的 key
+
 *  **交换变量值**
 
 
@@ -40,7 +42,7 @@
 ### 引用
  &emsp;&emsp;&emsp;值是靠**引用**来传递的
  &emsp;&emsp;&emsp;可以用 **id( )** 判断两个变量是否为同一个值的引用
- &emsp;&emsp;&emsp;id值理解为内存的地址标识
+ &emsp;&emsp;&emsp;id 值理解为内存的地址标识
 
 
 ### 
