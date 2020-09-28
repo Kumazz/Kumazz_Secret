@@ -1,7 +1,7 @@
 # 详解对象
 
 ### self
-&emsp;&emsp;self 指的是**当前（实例）对象**
+&emsp;&emsp;self 指的是**当前（实例）对象**，类中所有方法都要以 self 作为第一个参数传递进去
 
 
 ```python
