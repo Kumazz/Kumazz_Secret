@@ -33,4 +33,8 @@
       * [多态](chapter1/duo-tai.md)
     * [文件操作](short-python/origin-base/wen-jian-cao-zuo.md)
       * [文件操作加强](short-python/origin-base/wen-jian-cao-zuo/wen-jian-cao-zuo-jia-qiang.md)
+    * [异常模块](short-python/origin-base/yi-chang-mo-kuai.md)
+      * [异常](short-python/origin-base/yi-chang-mo-kuai/yi-chang.md)
+      * [模块](short-python/origin-base/yi-chang-mo-kuai/mo-kuai.md)
+      * [包](short-python/origin-base/yi-chang-mo-kuai/bao.md)
 
