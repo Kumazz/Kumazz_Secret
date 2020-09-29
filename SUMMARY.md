@@ -32,4 +32,5 @@
       * [私有权限](chapter1/si-you-shu-fang.md)
       * [多态](chapter1/duo-tai.md)
     * [文件操作](short-python/origin-base/wen-jian-cao-zuo.md)
+      * [文件操作加强](short-python/origin-base/wen-jian-cao-zuo/wen-jian-cao-zuo-jia-qiang.md)
 
